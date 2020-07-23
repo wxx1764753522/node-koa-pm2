@@ -15,6 +15,5 @@ router.get('/api/', (ctx, next) => {
 }).all('/api/users/:id', (ctx, next) => {
     ctx.body = `here is users${ctx.params.id}`;
 })
-console.log(1)
 
 module.exports = router
